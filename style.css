@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Protest+Guerrilla&family=Russo+One&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    .second-navbar{
+      
+        height: 65px;
+    }
+  
+    .list1{
+        display: flex;
+        justify-content: center;
+  
+    }
+    .text1{
+      font-size: 45px;
+      font-weight: bolder;
+      margin-top: 20px;
+      /* font-family: 'Alfa Slab One'; */
+      /* color:white; */
+      font-style: italic;
+
+      color:#f1f1f7;
+      /* color:#ca980d; */
+      /* font-family: 'Protest Guerrilla', sans-serif; */
+    }
+    header{
+      background: linear-gradient(rgba(8, 8, 8, 0.7) ,rgba(8, 8,8, 0.7)) , url(img/jens-kreuter-ngMtsE5r9eI-unsplash.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      animation: changeimg 5s linear infinite;
+    }
+    @keyframes changeimg {
+      0%{
+        background: linear-gradient(rgba(8, 8, 8, 0.7) ,rgba(8, 8,8, 0.7)), url(img/jens-kreuter-ngMtsE5r9eI-unsplash.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      }
+      25%{
+        background: linear-gradient(rgba(8, 8, 8, 0.7) ,rgba(8, 8,8, 0.7)) , url(img/tomasz-gawlowski-YDZPdqv3FcA-unsplash.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      }
+      50%{
+        background: linear-gradient(rgba(0,0,0,0.7) , rgba(0,0,0,0.7)) , url(img/christopher-gower-m_HRfLhgABo-unsplash\ \(1\).jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      }
+      75%{
+        
+        background: linear-gradient(rgba(0,0,0,0.7) , rgba(0,0,0,0.7)) , url(img/ethan-hoover-vasU4-TlC5I-unsplash.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      }
+      
+    }
+    .logo{
+      width: 120px;
+      height: 120px;
+      margin-left: 30px;
+    }
+    figure a{
+      text-decoration: none;
+      padding-top: 20px;
+      color:rgb(9, 9, 143);
+    }
+    /* .offcanvas-body{
+      
+background: rgb(126, 190, 243);
+background: linear-gradient(169deg, rgba(106,106,106,1) 0%, rgb(17, 7, 104) 99%);
+    } */
+    .banner{
+    
+        height: 80vh;
+      } 
+      /* .word{
+        width: 90%;
+        position: absolute;
+        transform: translate(-50% , -50%);
+        top: 65%;
+        left: 50%;
+        text-align: center;
+       
+    }
+    .word span{
+        display: inline-block;
+        font-family: 'poppins' , 'sans-serif';
+        font-size: 70px;
+        font-weight: bolder;
+        
+        color: #ebf2f3;
+    
+       
+        position: relative;
+        transform: translatex(-170vh);
+        animation: fall 4s forwards infinite;
+    }
+    @keyframes fall{
+        100%{
+            transform: translatex(0);
+        }
+    
+    }
+    .word span:nth-child(1){
+        animation-delay: 0s;
+    }
+    .word span:nth-child(2){
+        animation-delay: 0.5s;
+    }  */
+    .text2{
+      font-size: 65px;
+      /* color:#af9346; */
+      color:#dcdcf3;
+      /* color: #45b5ce; */
+      margin-top: 150px;
+      text-align: center;
+      /* font-family: 'Protest Guerrilla', sans-serif; */
+      font-family: 'Alfa Slab One';
+      /* background: linear-gradient(to bottom, #cfc09f 22%,#634f2c 24%, #ddaf4c 26%, #cfc09f 27%,#ffecb3 40%,#3a2c0f 78%);  */
+    }
+    /* #btn1{
+      height: 45px;
+    width: 261px;
+    margin-left: 540px;
+    /* margin-top: 30px; */
+    /* font-size: 25px; */
+    /* margin: auto; */
+    /* background-color: #04a119;
+    border: none;
+    border-radius: 50px;
+    color: white;
+  } */ 
+.count1{
+  color: white;
+}
+  .counter-section{
+    /* margin-top: 100px; */
+    /* background-color: crimson;
+    background-image: url(img/pexels-jéshoots-234527.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; */
+    padding: 20px 20px;
+    /* margin-top: 50px; */
+    /* background: rgb(247,230,224);
+background: linear-gradient(90deg, rgba(247,230,224,1) 0%, rgba(237,197,197,1) 50%, rgba(244,225,199,1) 100%); */
+
+background: rgb(238,223,218);
+background: linear-gradient(90deg, rgb(247, 237, 234) 0%, rgb(193, 203, 204) 50%, rgb(236, 222, 204) 100%);
+
+/* background: rgb(33,88,101);
+background: radial-gradient(circle, rgba(33,88,101,1) 0%, rgba(32,69,107,0.8912177419796043) 9%, rgba(31,42,81,1) 100%); */
+
+/* background: rgb(243,192,174);
+background: linear-gradient(90deg, rgb(236, 199, 186) 0%, rgb(190, 230, 230) 50%, rgb(241, 214, 204) 100%); */
+
+/* background: rgb(49,48,47);
+background: linear-gradient(90deg, rgb(38, 31, 131) 100%, rgba(66, 79, 175, 0.846) 50%, rgb(38, 31, 131) 100%); */
+
+/* background: rgb(49,48,47);
+background: linear-gradient(90deg, rgb(24, 23, 23) 0%, rgba(73,73,78,0.8463998148087359) 50%, rgb(24, 23, 23) 100%); */
+
+  }
+  .numbers{
+  /* color: rgb(65, 57, 57); */
+  color:rgb(14, 19, 80);
+  /* color: #c93939; */
+  font-size: 30px;
+  font-weight: bolder;
+  font-style: italic;
+  }
+
+
+
+
+ 
+  
+/* .explore-brands{
+  border: none;
+  background-color: transparent;
+  border-radius: 10px;
+}     */
+/* .explore-brands .card img{
+  border-radius: 10px;
+  object-fit: cover;
+} */
+
+.card{
+  /* margin: auto;
+  margin-top: 400px; */
+  /* width: 300px;
+  height: 200px;
+  /* position: relative; */
+  border-radius: 10px;
+  /* box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.192); */
+  box-shadow: rgba(85, 84, 84, 0.25) 0px 54px 55px, rgba(100, 99, 99, 0.12) 0px -12px 30px, rgba(20, 19, 19, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(99, 97, 97, 0.09) 0px -3px 5px;
+  transition: 0.3s;
+  padding: 30px 50px;
+  /* background-color: aliceblue; */
+  cursor: pointer;
+  height: 200px;
+}
+.card:hover{
+  height: 300px;
+}
+.imgbox{
+  /* display: flex; */
+  /* position: relative; */
+  width: 100%;
+  height: 100%;
+  transform: translateY(-30px);
+  
+
+}
+img{
+  width: 100%;
+  /* height: 90px; */
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.3) ;
+}
+.card-body{
+  padding: 10px 20px ;
+  text-align: center;
+  transform: translatey(-100px);
+  opacity: 0;
+  transition: 0.3s;
+
+}
+.card:hover .card-body{
+  opacity: 1;
+  transform: translateY(50px);
+}
